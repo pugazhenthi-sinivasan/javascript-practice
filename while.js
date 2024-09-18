@@ -32,30 +32,41 @@
 // }
 
 
-let i=8;
-while(i>=0)
-{
-    console.log(i);
-    i--;
-}
+// let i=8;
+// while(i>=0)
+// {
+//     console.log(i);
+//     i--;
+// }
 
 
-let o=3;
-do {
-    console.log(o);
-    o++;
+// let o=3;
+// do {
+//     console.log(o);
+//     o++;
     
-}
-while (o<=5)
+// }
+// while (o<=5)
 
 
-let l=0;
-do{
-    console.log(l);
-    l++;
+// let l=0;
+// do{
+//     console.log(l);
+//     l++;
     
+// }
+// while(l<=8)
+
+
+
+let=0
+while(i<=10)
+{ console.log(i);
+    i++;
 }
-while(l<=8)
+    
 
 
 
+
+  
