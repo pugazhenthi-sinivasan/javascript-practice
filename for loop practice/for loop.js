@@ -23,13 +23,13 @@
 
     
 
-// let n=5;
-// function printT(n){
-//     for(i=1; i<=n;i++){
-//         console.log(n);
-//     }
-// }
-// printT(n);
+let n=5;
+function printT(n){
+    for(i=1; i<=n;i++){
+        console.log(n);
+    }
+}
+printT(n);
 
 
 
@@ -55,12 +55,33 @@
 // }
 // tamil(n)
 
-function good(a){
-    for(i=1;6>=i;i++){
-        let n=i*a;
-        console.log(a+"*"+i+"="+n)
-    }
-} good(5)
+// function good(a){
+//     for(i=1;6>=i;i++){
+//         let n=i*a;
+//         console.log(a+"*"+i+"="+n)
+//     }
+// } good(5)
+
+// let n=0
+// function ll(n){
+//     for(i=10; i>=n; i--)
+//         console.log(i);{
+//     }
+        
+// }
+// ll(n)
+
+
+
+// let e=10;
+// function op(e){
+//     for (i=0; i<e; i++){
+//         console.log(i);
+        
+//     }
+// }op(e)
+
+
 
 
 

@@ -15,3 +15,7 @@ console.log(movie.length);
 
 
 
+let ome=["a","b","c"]
+ome.push("d")
+console.log(ome)
+

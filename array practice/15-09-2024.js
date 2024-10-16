@@ -10,12 +10,12 @@
 
 
 
-// let nam =["ram","sam","ke7","gopi"]
-// // console.log("the name of best "+nam[2]);
+let nam =["ram","sam","ke7","gopi"]
+console.log("the name of best "+nam[2]);
 
-// for(i=0; i<5; i++){
-//     console.log(nam[i]);
-// }
+for(i=0; i<5; i++){
+    console.log(nam[i]);
+}
 
 
 
