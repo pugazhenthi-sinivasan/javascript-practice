@@ -9,12 +9,12 @@
 
 
 
-let n=9
+
 function fight(n)
 {for(i=1; i<=n; n++){
       console.log(i)
 }
-}fight(n)
+}fight(10)
 
 
 
