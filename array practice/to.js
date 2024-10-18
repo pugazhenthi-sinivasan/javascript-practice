@@ -1,31 +1,31 @@
-let marks = [100, 80, 60, 70];
-let sum = 0;
+// let marks = [100, 80, 60, 70];
+// let sum = 0;
 
-for(i=0; i<marks.length; i++)
-{
-    sum = sum + marks[i];
-    ave = sum/marks.length
-}
-console.log(ave);
+// for(i=0; i<marks.length; i++)
+// {
+//     sum = sum + marks[i];
+//     ave = sum/marks.length
+// }
+// console.log(ave);
 
 // 1.You have an array of daily expenses for a week. Write a function that calculates the total expenses for the week.
 
-let expenses = [1000, 2000, 1500, 3000 ]
-sum = 0;
+// let expenses = [1000, 2000, 1500, 3000 ]
+// sum = 0;
 
-for(i=0; i<expenses.length; i++){
-    sum = sum + expenses[i] // initial sum =1000, // sum = 1000 + 2000// sum 3000 + 1500 = 4500// 
+// for(i=0; i<expenses.length; i++){
+//     sum = sum + expenses[i] // initial sum =1000, // sum = 1000 + 2000// sum 3000 + 1500 = 4500// 
 
-}
-console.log(sum)
+// }
+// console.log(sum)
 
 
-let go=[10,20,30]
-sum=0;
-for(i=0; i<go.length; i++ ){
-    sum=sum+go[i];
-}
-console.log(sum)
+// let go=[10,20,30]
+// sum=0;
+// for(i=0; i<go.length; i++ ){
+//     sum=sum+go[i];
+// }
+// console.log(sum)
 
 
 
@@ -38,35 +38,67 @@ console.log(sum)
 // console.log(sum);
 
 
-let op=[10,20,30]
-sum=0;
-for(i=0; i<op.length; i++)
-{
-    sum=sum+op[i]
+// let op=[10,20,30]
+// sum=0;
+// for(i=0; i<op.length; i++)
+// {
+//     sum=sum+op[i]
+// }
+// console.log(i);
+
+
+
+// // function number(n){
+// //     for(i=0; i<n; i++){
+
+// //     }
+// // }number(20)
+
+
+
+
+
+
+// let fruit=["apple","banana","grape"]
+// function call(fruit){
+    
+//     for(i=0; i<fruit.length; i++){
+//         console.log(fruit[i])
+//     }
+// }
+// call(fruit)
+
+// let numb=[10,20,20]
+// // function let(numb){
+//     sum=0
+//     for(i=0; i<numb.length; i++){
+// sum=sum+numb[i]
+//     }
+// console.log(i)
+
+
+// let pp=["fjfj","dhjdj"]
+// function tt(pp){
+//     for(i=0; i<pp.length; i++){
+// console.log(pp[i])
+//     }
+// }tt(pp)
+
+
+ 
+function number(start,end){
+    let str=[];
+    for(let i=start;i<=end;i++){
+        if(i%2==1){
+            str.push(i);
+        }
+    }
+   let output=str.join(",");
+    console.log(output);
 }
-console.log(sum);
+number(3,15);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-let jj=[90,30,]
-sum=0
-for(i=0; i<jj.length; i++){
-    sum=
-}
 
 
 

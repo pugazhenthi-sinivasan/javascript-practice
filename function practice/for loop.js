@@ -36,13 +36,13 @@
 
 
 
-// let n=8;
-// function pugall(n){
-//     for(i=1; i<=n; i++)
-// {
-//     console.log(i);
-// }}
-// pugall(n)
+let n=8;
+function pugall(n){
+    for(i=1; i<=n; i++)
+{
+    console.log(i);
+}}
+pugall(n)
 
 
 
