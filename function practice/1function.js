@@ -1,15 +1,20 @@
+function oppe(){
+  console.log("theis is oppe iphone");
+}
+oppe()
+
+
+let n=10
+for(let i=1;i<=n;i++){
+    console.log(i)
+}
+
+
+
 function greetUser() {
     var userName = "John"; 
     console.log(userName);
 }
-
-
-function add(a, b) {
-    return a + b;
-  }
-  let sum = add(2, 3); 
-  console.log(sum);
-
 
   function ode(){
     let f=10;

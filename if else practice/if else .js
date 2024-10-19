@@ -153,3 +153,12 @@ while (x > 0) {
     x = x >> 1;
     y = y << 1;
 }
+
+let a=10
+let b=5
+if(a<b){
+    console.log("op")
+}
+else if(a>b){
+    console.log ("this is corrt words")
+}
