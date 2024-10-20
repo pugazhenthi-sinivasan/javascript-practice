@@ -62,7 +62,7 @@ function abc(a,b){
 function bomer(som){
     sum=0;
     for(i=0; i<=som.length; i++){
-        if(som[i]%2==0){
+        if(som[i]%3==0){
             sum+=som[i]}
         }console.log(sum)
     }bomer([1,2,3,4,5,6])
@@ -71,12 +71,12 @@ function bomer(som){
 
 
 
-    function joing(ok){
-        sum=0;
-        for(i=0; i<ok.length; i++){
-            if()
-        }
-    }
+    // function joing(ok){
+    //     sum=0;
+    //     for(i=0; i<ok.length; i++){
+    //         if()
+    //     }
+    // }
 
 
 
