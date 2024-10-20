@@ -40,8 +40,59 @@ student(1);
 
 
 
-function add(a,b){
-    
-  return a+b;
-}
-add(20,10)
+
+
+function callling(n){
+    for(let i=10; i>n; i--){
+        console.log(i)
+    }
+}callling(0)
+
+
+function abc(a,b){
+    //for(i=0; i<; i++){
+      
+    return a+b;
+
+}console.log(abc(20,30))
+
+
+
+
+function bomer(som){
+    sum=0;
+    for(i=0; i<=som.length; i++){
+        if(som[i]%2==0){
+            sum+=som[i]}
+        }console.log(sum)
+    }bomer([1,2,3,4,5,6])
+
+
+
+
+
+    function joing(ok){
+        sum=0;
+        for(i=0; i<ok.length; i++){
+            if()
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
