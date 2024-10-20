@@ -9,52 +9,34 @@
 //      84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95,
 //      96, 97, 98, 99
 //    ]
-let arra=[]
-for(i=0; i<100; i++){
-      arra.push(i)
-}
-console.log(arra)
+// let arra=[]
+// for(i=0; i<100; i++){
+//       arra.push(i)
+// }
+// console.log(arra)
 
 
 
 
 
-let op=[]
-for(i=0; i<=20; i+=2){
-      op.push(i)
-}console.log(op)
+// let op=[]
+// for(i=0; i<=20; i++){
+//       op.push(i)
+// }console.log(op)
 
-function add(a,b)
-{
-      return a+b;
-}
-console.log(add(20,30))
-console.log(add(10,10))
-
+// function add(a,b)
+// {
+//       return a+b;
+// }
+// console.log(add(20,30))
+// console.log(add(10,10))
 
 // Write a function that takes an array of integers as input and calculates the sum of all even numbers in the array and prints it
 // Test Cases:
 // Input: [1, 2, 3, 4, 5, 6]
 // Output: 12
 // (Explanation: 2 + 4 + 6 = 12)
-
-function primenumber(star,end){
-      let odd=[];
-      for(let i=star; i<=end; i++){
-       if(i%2!==0){
-            odd.push(i);
-       }
-    }
-    console.log(odd);
-  }
-  primenumber(3,15);
-
-
-//   Write a function that takes an array of integers as input and calculates the sum of all even numbers in the array and prints it
-//   Test Cases:
-//   Input: [1, 2, 3, 4, 5, 6]
-//   Output: 12
-  function addenvennumbers(array){
+function addenvennumbers(array){
       let sum=0;
       for(i=0;i<array.length;i++){
           if(array[i]%2===0){
@@ -64,6 +46,29 @@ function primenumber(star,end){
       console.log(sum);
   }
   addenvennumbers([1,2,3,4,5,6]);
-  addenvennumbers([7,11,18,21,22]);
+  
+  
+//   Write a function findOddNumbers(start, end) that prints all odd numbers between start and end (inclusive) using console.log
+//   example findOddNumbers(3, 15) prints 3, 5, 7, 9, 11, 13, 15
+
+function findOddNumbers(start, end) {
+      let oddnumbers=[];
+      for(let i=start; i<=end; i++){
+          if(i%2!==0){
+              oddnumbers.push(i);}
+          }console.log(oddnumbers.join(', '));
+      }
+      findOddNumbers(3,15)
 
 
+
+     function add (ott){
+        let sum=0;
+        for(i=0; i<ott.length; i++){
+            if(ott[i]%3===0){
+            sum+=ott[i]}
+        }console.log(sum)
+     }add([1,2,3,4,5,6,7,8,9,])
+
+
+     function
