@@ -91,3 +91,35 @@ function findOddNumbers(start, end) {
     } days(1)
       days(2)
       days(3)
+
+
+
+let a=10;
+let b=5;
+let sum=a+b;
+console.log("the sum is"+ sum);
+
+
+let side=5;
+let area=side*side;
+console.log("the is area"+area)
+
+pruchaserAmount=2000;
+if(pruchaserAmount>=2000)
+{
+console.log("this corret")   
+}
+console.log("thaks for sir")
+
+let length=10;
+let breadth=4;
+let area=length*breadth;
+console.log("area of rectang ="+area)
+
+
+let atmAmount=10000;
+let atmCash  =5000;
+if(atmCash<=atmAmount){
+    console.log("this a corrt")
+}
+
