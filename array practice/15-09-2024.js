@@ -19,5 +19,9 @@ for(i=0; i<5; i++){
 
 
 
-
+let arra=[]
+for(i=0; i<100; i++){
+      arra.push(i)
+}
+console.log(arra)
   

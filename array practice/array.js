@@ -1,14 +1,14 @@
 // // 1. Basic Array Creation  
 // //    Create an array of 5 numbers and print the array.
-// let cod=[ "for","whil","if","else","string"]
-// console.log(cod);
+let cod=[ "for","whil","if","else","string"]
+console.log(cod);
 
 
 
-// let myf = ["apple", "banana", "cherry", "date"];// Print the 2nd and 4th elements
-// console.log(myf[1]); // Output: banana
-// console.log(myf[3]); // Output: date
-// console.log(myf[0]);//  output:apple
+ let myf = ["apple", "banana", "cherry", "date"];// Print the 2nd and 4th elements
+ console.log(myf[1]); // Output: banana
+ console.log(myf[3]); // Output: date
+console.log(myf[0]);//  output:apple
 
 
 //  3. Modifying Array Elements  
@@ -27,9 +27,9 @@ console.log(Array1);
 
 
 
-// let array = [1, 2, 3, 4, 5];
-// array.reverse();
-// console.log("Reversed array:", array);
+ let array = [1, 2, 3, 4, 5];
+ array.reverse();
+ console.log("Reversed array:", array);
 
 
 let abc=["a","b","c","d"];

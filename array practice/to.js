@@ -99,6 +99,40 @@ function number(start,end){
 number(3,15);
 
 
+// // 1. **Basic Array Creation**
+// //    Create an array of 5 numbers and print the array.
+
+// let arrays=[10,20,30,40,50]
+// console.log(arrays)
+
+
+// // 2. **Accessing Array Elements**
+// //    Create an array of 4 strings. Print the 2nd and 4th elements.
+
+// // let Fruits = [["Dry fruit","badam"],["Fresh","Apple"],["Bad fruit","Dragon Fruit"]]
+// let fruit=["apples","bananas","blueberries","cherries"]
+// console.log(fruit[1],fruit[3])
+
+
+// // 3. **Modifying Array Elements**
+// //    Create an array of 3 elements. Change the 2nd element to "modified" and print the array.
+// let modifying=["apples","bananas","blueberries",]
+// modifying[2]="cherries"
+// console.log(modifying)
+
+// // 4. **Array Length**
+// //    Write a program to print the length of an array containing 7 elements.
+// let leng=["dragos","Lemons","cherries","grapes","oranges","papayas","bananas"]
+// console.log(leng.length-1)
+// console.log(leng.length)
+
+// // 5. **Iterating with a `for` loop**
+// //    Write a program that iterates over an array of numbers and prints each element.
+// let mumber=[10,20,30]
+//     for(i=0; i<=mumber.length; i++);
+//     console.log(mumber[2])
+
+
 
 
 

@@ -19,3 +19,9 @@ let ome=["a","b","c"]
 ome.push("d")
 console.log(ome)
 
+
+let arra=[]
+for(i=0; i<100; i++){
+      arra.push(i)
+}
+console.log(arra)
