@@ -31,68 +31,14 @@
 // console.log(add(20,30))
 // console.log(add(10,10))
 
-// Write a function that takes an array of integers as input and calculates the sum of all even numbers in the array and prints it
-// Test Cases:
-// Input: [1, 2, 3, 4, 5, 6]
-// Output: 12
-// (Explanation: 2 + 4 + 6 = 12)
-function addenvennumbers(array){
-      let sum=0;
-      for(i=0;i<array.length;i++){
-          if(array[i]%2===0){
-          sum+=array[i];
-          }
-      }
-      console.log(sum);
-  }
-  addenvennumbers([1,2,3,4,5,6]);
+
   
   
-//   Write a function findOddNumbers(start, end) that prints all odd numbers between start and end (inclusive) using console.log
-//   example findOddNumbers(3, 15) prints 3, 5, 7, 9, 11, 13, 15
-
-function findOddNumbers(start, end) {
-      let oddnumbers=[];
-      for(let i=start; i<=end; i++){
-          if(i%2!==0){
-              oddnumbers.push(i);}
-          }console.log(oddnumbers.join(', '));
-      }
-      findOddNumbers(3,15)
 
 
 
-     function add (ott){
-        let sum=0;
-        for(i=0; i<ott.length; i++){
-            if(ott[i]%3===0){
-            sum+=ott[i]}
-        }console.log(sum)
-     }add([1,2,3,4,5,6,7,8,9,])
 
-
-     function days(num){
-        if(num<2 && num<2){
-            console.log("tuesday");
-            
-        }
-        else if(num<1 && num<1){
-            console.log("monday");
-            
-        }
-        else if(num<3 && num<3){
-            console.log('wensday');
-            
-        }
- 
-        else {
-            console.log('fail');
-        }
-    } days(1)
-      days(2)
-      days(3)
-
-
+    
 
 let a=10;
 let b=5;
@@ -113,12 +59,12 @@ console.log("thaks for sir")
 
 let length=10;
 let breadth=4;
-let area=length*breadth;
-console.log("area of rectang ="+area)
+let areas=length*breadth;
+console.log("area of rectang ="+areas)
 
 
 let atmAmount=10000;
-let atmCash  =5000;
+let atmCash  =10000;
 if(atmCash<=atmAmount){
     console.log("this a corrt")
 }
