@@ -7,29 +7,29 @@ function prime(num){
     }
       return num+" prime";
    }
-   console.log(prime(7));
+   console.log(prime(11));
 
 
 // 2.Fizz-Buzz//////////////////////////////////////
-function fizzBuzz() {
-    for (let i = 1; i <= 100; i++) {
-        if (i % 3 === 0 && i % 5 === 0) {
+
+function Fizzbuzz(number) {
+    for (let i = number; i <100; i++) { 
+        if (i % 5 === 0 && i % 3 === 0) 
+        { 
             console.log("FizzBuzz");
         } 
-        else if (i % 3 === 0) {
+        else if (i % 3 === 0) { 
             console.log("Fizz");
         } 
-        else if (i % 5 === 0) {
+        else if (i % 5 === 0) { 
             console.log("Buzz");
         } 
         else {
-            console.log(i);
+            console.log(i); 
         }
     }
 }
-
-fizzBuzz();
-
+Fizzbuzz(15); 
 
 
 
@@ -37,7 +37,7 @@ fizzBuzz();
 function lcm(a,b){
     let min=Math.min(a,b);
     for(i=min;  i<=a*b;  i++){
-        if(a%i==0  &&  b%i==0){
+        if(i%a==0  &&  i%b==0){
             console.log(i);
             break;
         }
