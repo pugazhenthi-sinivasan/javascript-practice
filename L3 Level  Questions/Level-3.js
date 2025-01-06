@@ -36,29 +36,26 @@ Fizzbuzz(15);
 // 3.LCM/////////////////////////////////////////////////
 function lcm(a,b){
     let min=Math.min(a,b);
-    for(i=min;  i<=a*b;  i++){
-        if(i%a==0  &&  i%b==0){
-            console.log(i);
+    for(i=min; i<=a*b; i++){
+        if(a%i==0  &&  b%i==0){
+            console.log(i)
             break;
         }
-        else{
-            console.log(i);
-        }
     }
-}lcm(7,0)
+  }lcm(20,20)
+
+  
 
 // 4.gcd gcd gcd///////////////////////////////////////////
 function gcd(a,b){
-    let max=Math.max(a,b)
-    for(i=max;i>0;i--){
-    if(a%i===0 && b%i===0){
-    console.log(i)
-    break;
+    let max=Math.max(a,b);
+    for(i=max; i>0; i--){
+        if(a%i==0 && b%i==0){
+            console.log(i)
+            break;
+        }
     }
-    }
-    }
-gcd(15,30)
-
+    }gcd(50,10)
 // 5.fibonacci
 function fibonacci(n){
     let a=0;
