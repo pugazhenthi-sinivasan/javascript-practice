@@ -10,52 +10,7 @@ function prime(num){
    console.log(prime(11));
 
 
-// 2.Fizz-Buzz//////////////////////////////////////
 
-function Fizzbuzz(number) {
-    for (let i = number; i <100; i++) { 
-        if (i % 5 === 0 && i % 3 === 0) 
-        { 
-            console.log("FizzBuzz");
-        } 
-        else if (i % 3 === 0) { 
-            console.log("Fizz");
-        } 
-        else if (i % 5 === 0) { 
-            console.log("Buzz");
-        } 
-        else {
-            console.log(i); 
-        }
-    }
-}
-Fizzbuzz(15); 
-
-
-
-// 3.LCM/////////////////////////////////////////////////
-function lcm(a,b){
-    let min=Math.min(a,b);
-    for(i=min; i<=a*b; i++){
-        if(a%i==0  &&  b%i==0){
-            console.log(i)
-            break;
-        }
-    }
-  }lcm(20,20)
-
-  
-
-// 4.gcd gcd gcd///////////////////////////////////////////
-function gcd(a,b){
-    let max=Math.max(a,b);
-    for(i=max; i>0; i--){
-        if(a%i==0 && b%i==0){
-            console.log(i)
-            break;
-        }
-    }
-    }gcd(50,10)
 // 5.fibonacci
 function fibonacci(n){
     let a=0;
@@ -97,6 +52,8 @@ function factorial(n) {
     return n * factorial(n - 1);
 }
 console.log(factorial(5)); 
+
+
 //////////////////////////////////////////////
 // 8.The co-prime number definition tells us that if the Greatest Common Factor (GCF) of any two
 // numbers is 1, then they are said to be co-prime.Given two numbers a and b print if they are "co-prime" or "Not a co-prime"
